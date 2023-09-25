@@ -5,7 +5,7 @@
 </p>  
 
 
-A chatbot that answers questions that breastfeeding mothers(especially in Africa) might have. It utilizes AI technology to understand the user's input in both speech and text to give a response to the user. The user can decide to ask their questions verbally or type it.
+I built a chatbot named **"Stelex"**. It answers questions that breastfeeding mothers(especially in Africa) might have. It utilizes AI technology to understand the user's input in both speech and text to give a response to the user. The user can decide to ask their questions verbally or type it.
 
 <p  align="center">
 
@@ -41,13 +41,13 @@ Before running the breast_feedGPT application, ensure you have the following dep
 1. Clone the repository:
 
 ```
-git clone https://github.com/hope205/breast_feedGPT.git
+git clone https://github.com/hope205/Stelex.git
 
 ```
 2. Navigate to the project directory:
 
 ```
-cd breast_feedGPT
+cd Stelex
 ```
 3. Install the required dependencies:
 
