@@ -1,10 +1,29 @@
-# breast_feedGPT
+<p  align="center">
 
-breast_feedGPT is a chatbot application developed to provide answers to questions commonly asked by nursing mothers regarding breastfeeding and other related topics. 
-The project includes both the chatbot model and a web interface for easy interaction. I made use of artilces about breastfeeding from Babymigo's site and a few other blogs that has worthy contents to form my knowldege base for the chatbot. To see the chatbot in action, check out this demo -https://youtu.be/gr9Ztli4RZk
+<img  src="banner_pic.png"  alt="banner"  height=300  width=820/>
+
+</p>  
+
+
+A chatbot that answers questions that breastfeeding mothers(especially in Africa) might have. It utilizes AI technology to understand the user's input in both speech and text to give a response to the user. The user can decide to ask their questions verbally or type it.
+
+<p  align="center">
+
+<img  src="breast_feeding_image.PNG"  alt="demo img"/>
+
+</p>  
+
+## Development: 
+
+### Tech Stack
+1. Tensorflow: Model building and development
+2. Pinecone: Vector database for storing embeddings.
+3. Microsoft Azure: deployment and API
+
 
 ## Features
-- Utilizes the Langachain and chatgpt APIs to power the chatbot functionality.
+- Utilizes the Langachain and chatbot APIs to power the chatbot functionality.
+- Makes use of Microsoft Azure speech API to convert speech-to-text
 - Integration with Pinecone for efficient storage and retrieval of chatbot responses.
 - Built with Streamlit, providing a user-friendly web interface for seamless interaction.
 - Handles a wide range of questions and concerns related to breastfeeding.
@@ -13,7 +32,7 @@ The project includes both the chatbot model and a web interface for easy interac
 Before running the breast_feedGPT application, ensure you have the following dependencies installed:
 
 - Python 3.7 or above
-- Langachain API credentials
+- Azure Speech API credentials
 - chatgpt API credentials
 - Pinecone API credentials
 
