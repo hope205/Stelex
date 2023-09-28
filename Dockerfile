@@ -19,10 +19,6 @@ COPY . /app
 RUN adduser -u 5678 --disabled-password --gecos "" appuser && chown -R appuser /app
 USER appuser
 
-# ENTRYPOINT ["streamlit", "run"]
 ENTRYPOINT streamlit run app.py
-
 # During debugging, this entry point will be overridden. For more information, please refer to https://aka.ms/vscode-docker-python-debug
 # CMD ["python", "app.py"]
-
-# CMD streamlit run app.py

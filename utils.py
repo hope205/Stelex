@@ -14,9 +14,9 @@ import pinecone
 
 
 
-PINECONE_API_KEY =  os.getenv('PINECONE_API_KEY')     # '0d1daca2-7b02-4840-a08c-930e48f7783a'  
-PINECONE_API_ENV =  os.getenv('PINECONE_API_ENV') #  'asia-southeast1-gcp-free'  
-openai.api_key =   os.getenv('OPENAI_API_KEY')  #"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" 
+PINECONE_API_KEY =  os.getenv('PINECONE-API-KEY')      
+PINECONE_API_ENV =  os.getenv('PINECONE-API-ENV') 
+openai.api_key =   os.getenv('OPENAI-API-KEY')  
 
     
     # initialize pinecone
@@ -25,7 +25,7 @@ api_key=PINECONE_API_KEY,  # find at app.pinecone.io
 environment=PINECONE_API_ENV  # next to api key in console
 )
 
-# g = "nursing"
+
 
 index = pinecone.Index("breastfeed")
 
