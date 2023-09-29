@@ -11,8 +11,8 @@ def load():
 
         # Get Configuration Settings
         load_dotenv()
-        cog_key = os.getenv('COG-SERVICE-KEY')
-        cog_region = os.getenv('COG-SERVICE-REGION')
+        cog_key = os.getenv('COG_SERVICE_KEY')
+        cog_region = os.getenv('COG_SERVICE_REGION')
 
         # Configure speech service
          # Configure speech service
