@@ -7,25 +7,6 @@ import prompts
 import speech_text
 from PIL import Image
 
-
-# def initialize_session_state():
-#     print("me")
-#     # Initialise session state variables
-#     if 'generated' not in st.session_state:
-#         st.session_state['generated'] = []
-#     if 'past' not in st.session_state:
-#         st.session_state['past'] = []
-#     if 'messages' not in st.session_state:
-#         st.session_state['messages'] = [
-#             {"role": "system", "content":  prompts.system_message}
-#         ]
-    
-
-# initialize_session_state()
-
-
-
-
 st.set_page_config(page_title="Stelex", page_icon=":robot_face:")
 
 
