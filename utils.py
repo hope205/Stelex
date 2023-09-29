@@ -5,7 +5,7 @@ import dotenv
 from dotenv import load_dotenv
 import streamlit as st
 
-# dotenv.config({path: "./vars/.env"})
+
 
 load_dotenv()
 
@@ -14,9 +14,9 @@ import pinecone
 
 
 
-PINECONE_API_KEY =  os.getenv('PINECONE-API-KEY')      
-PINECONE_API_ENV =  os.getenv('PINECONE-API-ENV') 
-openai.api_key =   os.getenv('OPENAI-API-KEY')  
+PINECONE_API_KEY =  os.getenv('PINECONE_API_KEY')      
+PINECONE_API_ENV =  os.getenv('PINECONE_API_ENV') 
+openai.api_key =   os.getenv('OPENAI_API_KEY')  
 
     
     # initialize pinecone
