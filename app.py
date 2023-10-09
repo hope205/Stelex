@@ -1,10 +1,8 @@
-import os
 import openai
 import streamlit as st
 from streamlit_chat import message
 from utils import semantic_search
 import prompts
-import speech_text
 from PIL import Image
 
 st.set_page_config(page_title="Stelex", page_icon=":robot_face:")
@@ -16,7 +14,7 @@ st.image(banner_img)
 # Setting page title and header
 
 
-speech_text.load()
+
 
 # Initialise session state variables
 if 'generated' not in st.session_state:
@@ -80,18 +78,11 @@ def generate_response(prompt):
 response_container = st.container()
 # container for text box
 
-def voice():
-    input= speech_text.TranscribeCommand()
-    
-    output = generate_response(input)       
-    st.session_state['past'].append(input)
-    st.session_state['generated'].append(output)
-    
- 
+
 
 
 container = st.container()
-st.button('Speak',on_click= voice)  
+
 
 
 
