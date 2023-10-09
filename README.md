@@ -5,8 +5,7 @@
 </p>  
 
 
-I built a chatbot named **"Stelex"**. It answers questions that breastfeeding mothers(especially in Africa) might have. It utilizes AI technology to understand the user's input in both speech and text to give a response to the user. The user can decide to ask their questions verbally or type it.
-
+I built a chatbot named **"Stelex"**. It answers questions that breastfeeding mothers(especially in Africa) might have. It utilizes AI technology to understand the user's input in text and gives a response to the user. 
 <p  align="center">
 
 <img  src="breast_feeding_image.PNG"  alt="demo img"/>
@@ -16,7 +15,7 @@ I built a chatbot named **"Stelex"**. It answers questions that breastfeeding mo
 ## Development: 
 
 ### Tech Stack
-1. Tensorflow: Model building and development
+1. Streamlit: for web interface
 2. Pinecone: Vector database for storing embeddings.
 3. Microsoft Azure: deployment and API
 
