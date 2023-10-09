@@ -5,7 +5,7 @@
 </p>  
 
 
-I built a chatbot named **"Stelex"**. It answers questions that breastfeeding mothers(especially in Africa) might have. It utilizes AI technology to understand the user's input in both speech and text to give a response to the user. The user can decide to ask their questions verbally or type it.
+I am chatbot named **"Stelex"**. It answers questions that breastfeeding mothers(especially in Africa) might have. It utilizes AI technology to understand the user's input in both speech and text to give a response to the user. The user can decide to ask their questions verbally or type it. Its is an ongoing improvement to the original chatbot. You are open to contribute 
 
 <p  align="center">
 
