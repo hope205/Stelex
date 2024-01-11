@@ -4,7 +4,7 @@
 
 </p>  
 
-# Stelex ([Try out here!!](https://stelex.azurewebsites.net/))
+# Stelex 
 ==============================
 
 
